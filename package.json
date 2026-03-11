@@ -1,5 +1,6 @@
 {
-  "name": "react-1-lesson",
+  "name": "timer-react",
+  "homepage": "https://tosh1bacrypto.github.io/timer-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
