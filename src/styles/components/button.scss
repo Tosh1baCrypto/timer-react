@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  outline: none;
+  background-color: var(--color-gray-1);
+  padding: 5px 10px;
+  font-size: clamp(1rem, 2vw, 10rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-white);
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px var(--color-gray-3);
+  
+  &:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px var(--color-gray-3);
+  }
+
+  &.button--start {
+    background-color: #066a08;
+    box-shadow: 0px 5px 0px 0px #0e9f10;
+
+    &:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px var(--color-gray-3);
+  }
+  }
+
+  &.button--stop {
+    background-color: #750707;
+    box-shadow: 0px 5px 0px 0px #bc0a0a;
+
+    &:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px var(--color-gray-3);
+    }
+  }
+
+}
